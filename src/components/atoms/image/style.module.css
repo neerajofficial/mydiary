@@ -1,0 +1,10 @@
+@import url('./../../../assets/_variables.css');
+
+.imageWrap {
+	padding: 0rem 0.4rem;
+}
+
+.small {
+	width: 10rem;
+	height: 2.8rem;
+}

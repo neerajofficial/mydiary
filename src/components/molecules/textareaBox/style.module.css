@@ -1,0 +1,15 @@
+@import url('./../../../assets/_variables.css');
+
+.textareaBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+@media only screen and (max-width: 567px) {
+	.textareaBox {
+		display: grid;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+}

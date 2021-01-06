@@ -1,0 +1,23 @@
+@import url('./../../../assets/_variables.css');
+
+.formBox {
+	font-family: var(--semibold);
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+.element {
+	padding: 0.7rem 1rem;
+}
+
+.element__action {
+	display: flex;
+	justify-content: center;
+	padding: 3rem 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.element {
+		padding: 0.5rem 0.5rem;
+	}
+}

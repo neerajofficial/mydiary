@@ -1,0 +1,12 @@
+@import url('./../../../assets/_variables.css');
+
+.normal {
+	color: var(--black-color);
+	font-family: var(--semibold);
+	font-size: 1rem;
+}
+.small {
+	color: var(--secondary-color);
+	font-family: var(--regular);
+	font-size: 0.9rem;
+}

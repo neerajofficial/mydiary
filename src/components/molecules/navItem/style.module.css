@@ -1,0 +1,15 @@
+@import url('./../../../assets/_variables.css');
+
+.navLink {
+	align-items: center;
+	color: var(--secondary-color);
+	font-family: var(--semibold);
+	color: var(--black-color);
+	font-family: var(--semibold);
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.activeLink {
+	color: var(--primary-color);
+}

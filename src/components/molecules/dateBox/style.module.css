@@ -1,0 +1,43 @@
+@import url('./../../../assets/_variables.css');
+
+.dateBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dateInput {
+	color: var(--secondary-color);
+	border:1px solid var(--dark-color);
+	border-radius: 0.4rem;
+	font-family: var(--semibold);
+	font-size: 1rem;
+	min-width: 38rem;
+	outline: none;
+	padding: 0.3rem 0.7rem;
+}
+
+.dateInput:focus,
+.dateInput:active {
+	border:1px solid var(--light-color);
+
+}
+
+@media only screen and (max-width: 767px) {
+	.dateInput {
+		min-width: 20rem;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.dateBox {
+		display: grid;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	.dateInput {
+		min-width: 10rem;
+	}
+}
+
+

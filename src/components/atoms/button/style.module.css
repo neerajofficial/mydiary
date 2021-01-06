@@ -1,0 +1,25 @@
+@import url('./../../../assets/_variables.css');
+
+.button {
+	border-radius: 1rem;
+	border: none;
+	padding: 0.2rem 1rem;
+	font-family: var(--semibold);
+	outline: none;
+	cursor: pointer;
+}
+
+.primary {
+	border: 0px solid var(--primary-color);
+	font-size: 1rem;
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+.secondary {
+	border: 2px solid var(--primary-color);
+	font-size: 0.9rem;
+	background: var(--white-color);
+	color: var(--primary-color);
+	padding: 0.2rem 0.8rem;
+}

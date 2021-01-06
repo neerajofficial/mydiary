@@ -1,0 +1,70 @@
+@import url('./../../../assets/_variables.css');
+
+.filterModal {
+	position: absolute;
+	z-index: 1;
+	top: 12vh;
+	left: 10rem;
+	box-shadow: 0px 2px 12px 2px var(--dark-color);
+	padding: 1rem 2rem;
+	background: var(--white-color);
+	height: 80vh;
+	width: 20vw;
+}
+
+.element {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.4rem 0rem;
+	align-items: center;
+}
+
+.datePicker {
+	color: var(--secondary-color);
+	border:1px solid var(--dark-color);
+	border-radius: 0.4rem;
+	font-family: var(--semibold);
+	font-size: 1rem;
+	outline: none;
+	padding: 0.3rem 0.7rem;
+}
+
+.datePicker:focus,
+.datePicker:active {
+	border:1px solid var(--light-color);
+
+}
+
+.action {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5rem;
+}
+
+@media only screen and ( max-width: 767px ) {
+	.filterModal {
+		position: absolute;
+		z-index: 1;
+		top: 12vh;
+		left: 2vh;
+		box-shadow: 0px 2px 12px 2px var(--dark-color);
+		padding: 1rem 2rem;
+		background: var(--white-color);
+		height: 80vh;
+		width: 80vw;
+	}
+}
+
+@media only screen and ( max-width: 576px ) {
+	.filterModal {
+		position: absolute;
+		z-index: 1;
+		top: 12vh;
+		left: 2vh;
+		box-shadow: 0px 2px 12px 2px var(--dark-color);
+		padding: 1rem 0rem;
+		background: var(--white-color);
+		height: 80vh;
+		width: 60vw;
+	}
+}
