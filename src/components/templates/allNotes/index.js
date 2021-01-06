@@ -7,7 +7,6 @@ import styles from './style.module.css'
 import Button from './../../atoms/button'
 import FilterModal from './../../organisms/filterModal'
 import NoteCard from './../../organisms/noteCard'
-import Text from './../../atoms/text'
 
 const AllNotes = props => {
 	const { getNotes, removeNote, notes } = props;

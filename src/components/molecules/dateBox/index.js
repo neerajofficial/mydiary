@@ -5,7 +5,7 @@ import styles from './style.module.css'
 import Text from './../../atoms/text'
 
 const DateBox = props => {
-	const { text, name, changeDate, startDate, otherProps} = props;
+	const { text, changeDate, startDate} = props;
 	
 	return (
 		<div className={styles.dateBox}>
